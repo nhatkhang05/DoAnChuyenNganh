@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Be Vietnam Pro', system-ui, sans-serif;
+  --color-ink: #12302d;
+  --color-muted: #587270;
+  --color-brand: #0b8f84;
+  --color-brand-dark: #087a70;
+  --color-brand-soft: #e0f3f0;
+  --color-deep: #0c3f3b;
+  --color-deep-2: #14564f;
+  --color-mint: #3fd1c0;
+  --color-page: #eef4f3;
+  --color-line: #e1ecea;
+  --color-soft: #f3f8f7;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background: var(--color-page);
+}
+
+button { font-family: inherit; }
+
+/* đổ bóng nhẹ cho thẻ */
+.shadow-card {
+  box-shadow: 0 1px 2px rgba(16, 60, 56, 0.05), 0 8px 24px rgba(16, 60, 56, 0.06);
+}
