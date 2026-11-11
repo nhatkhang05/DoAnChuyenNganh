@@ -22,7 +22,7 @@ const hint: Record<PrescriptionStatus, string> = {
 }
 const noteBg: Record<PrescriptionStatus, string> = { new: '#f3f8f7', waitingPay: '#fff6e0', paid: '#e3f1fb', delivered: '#e3f6ec' }
 
-export default function Prescriptions({ mode }: { mode: 'pending' | 'delivered' }) {
+export default function DonThuoc({ mode }: { mode: 'pending' | 'delivered' }) {
   const { prescriptions, appointments, computeDrugFee, deliverMedicine } = useClinic()
   const [selId, setSelId] = useState<number | null>(null)
 

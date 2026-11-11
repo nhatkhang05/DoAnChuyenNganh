@@ -46,7 +46,7 @@ const seedCompleted: CompletedRecord[] = [
   },
 ]
 
-export default function Done() {
+export default function DaKham() {
   const { appointments, prescriptions, doctorsList, medicinesList } = useClinic()
   const [records, setRecords] = useState<CompletedRecord[]>(seedCompleted)
   const [editing, setEditing] = useState<CompletedRecord | null>(null)

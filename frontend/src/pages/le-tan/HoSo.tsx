@@ -20,7 +20,7 @@ interface PatientGroup {
   historyIds: number[]
 }
 
-export default function Records() {
+export default function HoSo() {
   const { appointments, prescriptions, doctorsList, medicinesList, confirmArrival, addWalkIn, updatePatientProfile } = useClinic()
   const navigate = useNavigate()
   const [kw, setKw] = useState('')

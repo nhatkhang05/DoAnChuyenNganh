@@ -5,7 +5,7 @@ import { findDoctor, money } from '../../utils'
 
 const methods = ['Tiền mặt', 'Chuyển khoản', 'Quẹt thẻ']
 
-export default function Invoices({ mode }: { mode: 'pending' | 'paid' }) {
+export default function HoaDon({ mode }: { mode: 'pending' | 'paid' }) {
   const { invoices, appointments, prescriptions, payInvoice } = useClinic()
   const [selId, setSelId] = useState<number | null>(null)
   const [method, setMethod] = useState(methods[0])

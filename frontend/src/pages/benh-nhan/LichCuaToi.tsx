@@ -13,7 +13,7 @@ const statusTag: Record<AppointmentStatus, { tone: 'ok' | 'info' | 'no' | 'gray'
   cancelled: { tone: 'no', text: 'Đã hủy' },
 }
 
-export default function MyAppointments() {
+export default function LichCuaToi() {
   const { appointments, prescriptions, invoices, doctorsList, medicinesList, cancelAppointment } = useClinic()
   const [tab, setTab] = useState<'up' | 'past'>('up')
 

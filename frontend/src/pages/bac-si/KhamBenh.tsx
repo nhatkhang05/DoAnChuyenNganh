@@ -9,7 +9,7 @@ import type { Appointment, PrescriptionLine } from '../../types'
 
 const rechecks = ['Không hẹn', '1 tuần', '2 tuần', '1 tháng']
 
-export default function Exam() {
+export default function KhamBenh() {
   const { appointments } = useClinic()
   const me = useMyDoctor()
   const queue = appointments

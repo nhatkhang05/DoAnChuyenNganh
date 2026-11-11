@@ -7,7 +7,7 @@ import { findDoctor, initialOf } from '../../utils'
 
 type Tab = 'all' | 'wait' | 'in'
 
-export default function Today() {
+export default function LichHomNay() {
   const { appointments, confirmArrival, addWalkIn } = useClinic()
   const [tab, setTab] = useState<Tab>('all')
   const [showForm, setShowForm] = useState(false)

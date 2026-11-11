@@ -9,7 +9,7 @@ const StepNo = ({ n }: { n: number }) => (
   <div className="flex size-[30px] items-center justify-center rounded-full bg-deep font-bold text-mint">{n}</div>
 )
 
-export default function Booking() {
+export default function DatLich() {
   const { appointments, bookAppointment, user } = useClinic()
   const [params] = useSearchParams()
   const [doctorId, setDoctorId] = useState(Number(params.get('bacsi')) || doctors[0].id)

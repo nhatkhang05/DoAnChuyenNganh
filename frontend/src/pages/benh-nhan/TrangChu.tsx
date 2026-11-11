@@ -14,7 +14,7 @@ const tiles: { to: string; icon: IconName; title: string; sub: string; color: st
 ]
 const gradients = ['from-[#0b8f84] to-[#3fd1c0]', 'from-[#5b8def] to-[#8fb2ff]', 'from-[#e0a526] to-[#f3cf7a]', 'from-[#e5533d] to-[#f59a8a]']
 
-export default function Home() {
+export default function TrangChu() {
   const { user, appointments } = useClinic()
   const [spec, setSpec] = useState('Tất cả')
   const [keyword, setKeyword] = useState('')
